@@ -95,7 +95,7 @@ $quotes[] = [
 
 $quotes[] = [
     'quote' => 'When they go low, we go high',
-    'source' => 'Michele Obama',
+    'source' => 'Michelle Obama',
     'citation' => '',
     'year' => '',
     'hashtag' => '#inspirationalwoman'
