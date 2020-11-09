@@ -40,6 +40,13 @@ $quotes[] = [
 'year' => ''
 ];
 
+$quotes[] = [
+    'quote' => 'Nobody owes you a job.',
+    'source' => 'Steven H Haas',
+    'citation' => '',
+    'year' => '2020'
+];
+
 
 // Create the getRandomQuote function and name it getRandomQuote
 function getRandomQuote($arr){
