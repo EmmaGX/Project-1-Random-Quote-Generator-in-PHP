@@ -1,5 +1,4 @@
-<link rel="stylesheet" href="css/normalize.css">
-<link rel="stylesheet" href="css/styles.css">
+<?php
 // PHP - Random Quote Generator
 
 // Create the Multidimensional array of quote elements and name it quotes
@@ -10,7 +9,7 @@ $quotes[] = [
 'quote' => 'The greatest glory in living lies not in never falling, but in rising every time we fall.',
 'source' => 'Nelson Mandela',
 'citation' => 'blog.hubspot.com',
-'year' => ''  
+'year' => ''
 ];
 
 $quotes[] = [
@@ -43,33 +42,28 @@ $quotes[] = [
 
 
 // Create the getRandomQuote function and name it getRandomQuote
-function getRandomQuote(){
-    $q = rand(0,4);
-    return $q;
+function getRandomQuote($arr){
+    $randomNumber = rand(0,sizeof($arr)-1);
+    return $arr[$randomNumber];
 }
-
-
 
 // Create the printQuote function and name it printQuote
 
 function printQuote ($arr) {
-    $r = $arr;
-    $randNum = getRandomQuote();
-    $combinedQuote;
-    if (is_array($r)) {
-        $combinedQuote =  $r[$randNum]['quote'] . "\n" . $r[$randNum]['source'] . "\n" . $r[$randNum]['citation'] . "\n";
-        if (!empty($r[$randNum]['year'])){
-          $combinedQuote = $combinedQuote . $r[$randNum]['year'];
-        }
-      
-      
-        echo $combinedQuote;
-       // echo $r[$randNum]['source'] . "\n";
-       // echo $r[$randNum]['citation'] . "\n";
-        //echo $r[$randNum]['year'];
+    $randomQuote = getRandomQuote($arr);
 
-       //echo $combinedQuote = "<p class="quote">" . $r[$randNum]['quote'] . "</p>";
+    $combinedQuote = "<p class=\"quote\">" . $randomQuote['quote'] . "</p>" .
+                         "<p class=\"source\">" .  $randomQuote['source'];
+
+
+   if (!empty($randomQuote['citation'])) {
+        $combinedQuote = $combinedQuote . "<span class=\"citation\">" . $randomQuote['citation'] . "</span>";
     }
+
+    if (!empty($randomQuote['year'])) {
+        $combinedQuote = $combinedQuote . "<span class=\"year\">" . $randomQuote['year'] . "</span>";
+    }
+
+    return $combinedQuote . "</p>" ;
+
 }
-
-

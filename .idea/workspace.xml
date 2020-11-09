@@ -1,8 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
+  <component name="BranchesTreeState">
+    <expand>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="REMOTE_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="GROUP_NODE:origin" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </expand>
+    <select />
+  </component>
   <component name="ChangeListManager">
     <list default="true" id="ab4fa152-33ae-4aac-a08a-4a78425e2c85" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/a_random_quote_generator-v1/inc/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/a_random_quote_generator-v1/inc/functions.php" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/a_random_quote_generator-v1/index.html" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,6 +43,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="PHP" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
@@ -35,16 +56,33 @@
       <option name="presentableId" value="Default" />
       <updated>1604770636110</updated>
       <workItem from="1604770637704" duration="5619000" />
+      <workItem from="1604886703412" duration="5000" />
+      <workItem from="1604888558724" duration="5141000" />
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
   </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
   <component name="WindowStateProjectService">
-    <state x="119" y="43" key="RollbackChangesDialog" timestamp="1604773046370">
+    <state x="119" y="43" key="RollbackChangesDialog" timestamp="1604892867949">
       <screen x="0" y="0" width="1707" height="680" />
     </state>
-    <state x="119" y="43" key="RollbackChangesDialog/0.0.1707.680@0.0.1707.680" timestamp="1604773046370" />
+    <state x="119" y="43" key="RollbackChangesDialog/0.0.1707.680@0.0.1707.680" timestamp="1604892867949" />
+    <state x="267" y="168" width="1215" height="667" key="dock-window-1" timestamp="1604889493548">
+      <screen x="0" y="0" width="1707" height="680" />
+    </state>
+    <state x="267" y="168" width="1215" height="667" key="dock-window-1/0.0.1707.680@0.0.1707.680" timestamp="1604889493548" />
   </component>
 </project>
