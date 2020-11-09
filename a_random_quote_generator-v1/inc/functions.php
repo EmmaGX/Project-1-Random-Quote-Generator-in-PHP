@@ -53,6 +53,64 @@ $quotes[] = [
 'hashtag' => '#myhusband'
 ];
 
+$quotes[] = [
+    'quote' => 'We\'re on a mission from God!',
+    'source' => 'Elwood Blues',
+    'citation' => 'Blues Brothers',
+    'year' => '1980',
+    'hashtag' => ''
+];
+
+$quotes[] = [
+    'quote' => 'Fat, Drunk and Stupid is no way to go through life, son.',
+    'source' => 'Dean Wormer',
+    'citation' => 'Animal House',
+    'year' => '1979',
+    'hashtag' => '#classic'
+];
+
+$quotes[] = [
+    'quote' => 'You\'re on double secret probation' ,
+    'source' => 'Dean Wormer',
+    'citation' => 'Animal House',
+    'year' => '1979',
+    'hashtag' => ''
+];
+
+$quotes[] = [
+    'quote' => 'We don\'t need no stinking badges',
+    'source' => 'Desperado',
+    'citation' => 'Blazing Saddles',
+    'year' => '1974',
+    'hashtag' => ''
+];
+
+$quotes[] = [
+    'quote' => 'I don\'t bother chasing mice around',
+    'source' => 'Brian Setzer',
+    'citation' => 'Stray Cats',
+    'year' => '1981',
+    'hashtag' => ''
+];
+
+$quotes[] = [
+    'quote' => 'When they go low, we go high',
+    'source' => 'Michele Obama',
+    'citation' => '',
+    'year' => '',
+    'hashtag' => '#inspirationalwoman'
+];
+
+$quotes[] = [
+    'quote' => 'Winter is coming',
+    'source' => 'Ned Stark',
+    'citation' => 'Game Of Thrones',
+    'year' => '2011',
+    'hashtag' => '#everyonedies'
+];
+
+
+
 
 // Create the getRandomQuote function and name it getRandomQuote
 function getRandomQuote($quotesArray){
