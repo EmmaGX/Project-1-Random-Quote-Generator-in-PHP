@@ -1,6 +1,8 @@
 <!DOCTYPE html>
 <html lang="en">
+<?php include 'inc/functions.php'; ?>
 <head>
+    <!-- changes quote every 10 seconds -->
   <meta http-equiv="refresh" content="10" >
   <meta charset="UTF-8">
   <title>Random Quotes</title>
@@ -8,24 +10,10 @@
   <link rel="stylesheet" href="css/normalize.css">
   <link rel="stylesheet" href="css/styles.css">
   <style>/*changes background color on click*/
-    body {background-color: <?php
-        function randomColor() {
-            $rand = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'];
-            $color = '#' . $rand[rand(0, 15)] . $rand[rand(0, 15)] . $rand[rand(0, 15)] . $rand[rand(0, 15)] . $rand[rand(
-                      0, 15)] . $rand[rand(0, 15)];
-            return $color;
-};
-    echo randomColor();?>}
+    body {background-color: <?php echo randomColor(); ?> }
   </style>
     <style>/*changes button color on click*/
-        #loadQuote {background-color: <?php
-        function buttonColor() {
-            $rand = ['0', '1', '2', '3', '4', '5', '6', '7', '8', '9', 'a', 'b', 'c', 'd', 'e', 'f'];
-            $color = '#' . $rand[rand(0, 15)] . $rand[rand(0, 15)] . $rand[rand(0, 15)] . $rand[rand(0, 15)] . $rand[rand(
-                      0, 15)] . $rand[rand(0, 15)];
-            return $color;
-};
-    echo buttonColor();?>}
+        #loadQuote {background-color: <?php echo randomColor();?>}
     </style>
 </head>
 <body>
@@ -33,7 +21,6 @@
     <div id="quote-box">
 <!--adds quote to the page  -->
       <?php
-        include 'inc/functions.php';
         echo printQuote($quotes);
       ?>
     </div>
