@@ -19,11 +19,7 @@
     <select />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="ab4fa152-33ae-4aac-a08a-4a78425e2c85" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a_random_quote_generator-v1/inc/functions.php" beforeDir="false" afterPath="$PROJECT_DIR$/a_random_quote_generator-v1/inc/functions.php" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/a_random_quote_generator-v1/index.php" beforeDir="false" afterPath="$PROJECT_DIR$/a_random_quote_generator-v1/index.php" afterDir="false" />
-    </list>
+    <list default="true" id="ab4fa152-33ae-4aac-a08a-4a78425e2c85" name="Default Changelist" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,6 +54,7 @@
       <workItem from="1604770637704" duration="5619000" />
       <workItem from="1604886703412" duration="5000" />
       <workItem from="1604888558724" duration="20434000" />
+      <workItem from="1605112545173" duration="37000" />
     </task>
     <servers />
   </component>
@@ -74,6 +71,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="WindowStateProjectService">
     <state x="241" y="0" key="#PHP" timestamp="1604941999522">
